@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | ChannelAnalytics</title>
+<meta name="description" content="ChannelAnalytics のプライバシーポリシー">
+<style>
+:root {
+  --bg: #fafaf8;
+  --text: #1f2328;
+  --muted: #59636e;
+  --line: #d8dbe0;
+  --accent: #b42318;
+  --link: #0b57d0;
+  --code-bg: #eef0f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181c;
+    --text: #e6e8eb;
+    --muted: #a3abb5;
+    --line: #333840;
+    --accent: #ff8a7a;
+    --link: #8ab4f8;
+    --code-bg: #262a31;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+  line-height: 1.8;
+}
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+.eyebrow { margin: 0; color: var(--accent); font-weight: 700; font-size: 0.9rem; }
+.eyebrow a { color: inherit; text-decoration: none; }
+h1 { margin: 4px 0 16px; font-size: 2rem; line-height: 1.3; }
+.lead { color: var(--muted); }
+h2 { margin: 40px 0 8px; font-size: 1.2rem; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+ul { padding-left: 1.4em; }
+a { color: var(--link); }
+code { background: var(--code-bg); padding: 1px 6px; border-radius: 4px; font-size: 0.9em; }
+table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow"><a href="./">ChannelAnalytics</a></p>
+    <h1>プライバシーポリシー</h1>
+    <p class="lead">ChannelAnalytics（以下「このツール」）が Google アカウントを通じて取得するデータの扱いについて説明します。</p>
+  </header>
+
+  <section>
+    <h2>1. 取得するデータ</h2>
+    <p>このツールは、運営者本人の YouTube チャンネルについて、次のデータを読み取り専用で取得します。</p>
+    <ul>
+      <li>チャンネルの基本情報（チャンネル名、登録者数など）</li>
+      <li>動画の一覧と情報（タイトル、公開日、公開状態、サムネイル、再生数など）</li>
+      <li>YouTube アナリティクスの数字（再生数、視聴時間、視聴維持率など）</li>
+    </ul>
+    <p>使う権限は <code>youtube.readonly</code> と <code>yt-analytics.readonly</code> の 2 つだけです。YouTube 上の内容を書き換えることはありません。</p>
+  </section>
+
+  <section>
+    <h2>2. 使いみち</h2>
+    <p>取得したデータは、運営者本人が自分のチャンネルの成績を振り返り、動画づくりに役立てるためだけに使います。広告、販売、その他の目的には使いません。</p>
+  </section>
+
+  <section>
+    <h2>3. 保存する場所</h2>
+    <p>取得したデータは、次の場所にだけ置きます。</p>
+    <ul>
+      <li>運営者本人のパソコンの中</li>
+      <li>運営者本人の claude.ai アカウント内の、非公開のページ（本人だけが見る成績表）</li>
+    </ul>
+    <p>サインイン用の情報（アクセストークン）も、運営者本人のパソコンの中にだけ保存します。</p>
+  </section>
+
+  <section>
+    <h2>4. 第三者への提供</h2>
+    <p>取得したデータを第三者に渡したり、売ったり、公開したりすることはありません。</p>
+  </section>
+
+  <section>
+    <h2>5. アクセスの取り消し</h2>
+    <p>このツールに許可したアクセスは、Google アカウントの設定からいつでも取り消せます。</p>
+    <p><a href="https://myaccount.google.com/permissions">Google アカウント → サードパーティ製のアプリとサービス</a></p>
+    <p>取り消したあとは、このツールは新しいデータを取得できなくなります。パソコンに残ったデータは、運営者本人がいつでも削除できます。</p>
+  </section>
+
+  <section>
+    <h2>6. Google と YouTube の規約</h2>
+    <p>このツールは YouTube API サービスを使っています。利用にあたっては、次の規約とポリシーが適用されます。</p>
+    <ul>
+      <li><a href="https://www.youtube.com/t/terms">YouTube 利用規約</a></li>
+      <li><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></li>
+    </ul>
+    <p>Google API から受け取ったデータの使用と他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>（限定使用の要件を含む）に従います。</p>
+  </section>
+
+  <section>
+    <h2>7. 改定</h2>
+    <p>このポリシーを変えるときは、このページを更新します。</p>
+    <p class="meta">制定日：2026年10月18日</p>
+  </section>
+
+  <footer>
+    <p><a href="./">ChannelAnalytics のトップへ</a></p>
+  </footer>
+</main>
+</body>
+</html>
